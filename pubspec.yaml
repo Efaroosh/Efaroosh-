@@ -1,0 +1,32 @@
+name: faroosh
+description: A complete super app named Faroosh.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.17.4
+  google_maps_flutter: ^2.6.0
+  location: ^5.0.3
+  http: ^0.13.6
+  stripe_payment: ^1.1.4
+  geolocator: ^10.1.0
+  flutter_spinkit: ^5.2.0
+  fluttertoast: ^8.2.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/products.json
+    - assets/medicines.json
+    - assets/flights.json
+    - assets/food_items.json
+    - assets/groceries.json
